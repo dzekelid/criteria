@@ -15,23 +15,23 @@ modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/criteria/master/_listings/axa-assistance/apis.md
 specificationVersion: "0.14"
 apis:
-- name: AXA Assistance Requests the activation of a certificate either to cover an
-    appliance purchased or to extend the warranty period of an appliance purchased.
+- name: AXA Assistance Requests the activation of a car rental certificate linked
+    to a product. At least one product_criteria has to be specified to identify the
+    product to which to subscribe. If the user already holds a certificate, this api
+    will update its personal infor
+  description: Requests the activation of a car rental certificate linked to a product.
     At least one product_criteria has to be specified to identify the product to which
-    to subscribe. This endpoint
-  description: Requests the activation of a certificate either to cover an appliance
-    purchased or to extend the warranty period of an appliance purchased. At least
-    one product_criteria has to be specified to identify the product to which to subscribe.
-    This endpoint
+    to subscribe. If the user already holds a certificate, this api will update its
+    personal infor
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28187-www-axa-assistance-com.jpg
   humanURL: https://www.axa-assistance.com
   baseURL: https://sandbox.api.axa-assistance.com//
   tags: Criteria
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/criteria/master/_listings/axa-assistance/sales-v1-individual-appliance-certificates-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/criteria/master/_listings/axa-assistance/sales-v1-individual-car-rental-certificates-post.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/criteria/master/_listings/axa-assistance/sales-v1-individual-appliance-certificates-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/criteria/master/_listings/axa-assistance/sales-v1-individual-car-rental-certificates-post-postman.md
 x-common:
 - type: x-crunchbase
   url: https://crunchbase.com/organization/axa-assitance
