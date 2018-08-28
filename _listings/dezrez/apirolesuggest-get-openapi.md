@@ -3,9 +3,11 @@ swagger: "2.0"
 x-collection-name: Dezrez
 x-complete: 0
 info:
-  title: Dezrez Search for properties/addresses that match the specified search criteria
+  title: Dezrez Search for property marketing roles that match the specified search
+    criteria
   version: 1.0.0
-  description: Search for properties/addresses that match the specified search criteria.
+  description: Search for property marketing roles that match the specified search
+    criteria.
 host: api.dezrez.com
 basePath: /
 schemes:
@@ -118,6 +120,42 @@ paths:
       tags:
       - Searchproperties
       - Addresses
+      - That
+      - Match
+      - Specified
+      - Search
+      - Criteria
+  /api/role/suggest:
+    get:
+      summary: Search for property marketing roles that match the specified search
+        criteria
+      description: Search for property marketing roles that match the specified search
+        criteria.
+      operationId: Role_SuggestBydataContract.isOnMarketBydataContract.pageNumberBydataContract.pageSizeBydataContract.
+      x-api-path-slug: apirolesuggest-get
+      parameters:
+      - in: query
+        name: dataContract.isOnMarket
+      - in: query
+        name: dataContract.pageNumber
+      - in: query
+        name: dataContract.pageSize
+      - in: query
+        name: dataContract.query
+      - in: query
+        name: dataContract.roleType
+      - in: query
+        name: dataContract.suggestType
+      - in: header
+        name: Rezi-Api-Version
+        description: Specifies which version of the API to call
+      responses:
+        200:
+          description: OK
+      tags:
+      - Searchproperty
+      - Marketing
+      - Roles
       - That
       - Match
       - Specified

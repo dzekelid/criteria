@@ -1,13 +1,13 @@
+---
 swagger: "2.0"
 x-collection-name: TelAPI
-x-complete: 1
+x-complete: 0
 info:
-  title: TelAPI
-  description: telapi-is-a-rest-api--what-that-means-for-you-is-that-interacting-with-telapi-to-perform-all-of-your-telephony-needs-is-almost-as-simple-as-visiting-a-website--deeper-knowledge-regarding-rest-is-useful-when-developing-with-telapi-but-definitely-not-required--we-aim-to-provide-all-of-the-information-needed-for-working-with-our-rest-api-throughout-its-documentation-provided-here-so-even-if-you-are-new-to-rest-telapi-will-still-be-a-pleasure-to-use-
-  termsOfService: http://www.telapi.com/legal/tos
-  version: v2
-host: api.telapi.com
-basePath: v2/
+  title: hetras Hotel API Version 0 Request available rooms using a given criteria.
+  version: v0
+  description: Request available rooms using a given criteria..
+host: api.hetras-certification.net
+basePath: /
 schemes:
 - http
 produces:
@@ -333,3 +333,17 @@ paths:
       - Using
       - Given
       - Criteria
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
+---
